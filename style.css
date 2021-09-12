@@ -1,0 +1,32 @@
+.grid {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    background-image: url("./background.svg");
+    background-size: cover;
+    position: relative;
+}
+
+.doodler {
+    width: 60px;
+    height: 60px;
+    background-image: url("./cat.svg");
+    background-size:initial;
+    position: absolute;
+}
+
+.platform {
+    width: 85px;
+    height: 15px;
+    background-image: url("./platform.svg");
+    background-size: contain;
+    position: absolute;
+}
+
+.score {
+    text-align: center;
+    font-size: 2rem;
+    background-color: lightskyblue;
+    margin: 0 auto;
+    width: 500px;
+}
